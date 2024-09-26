@@ -1,0 +1,11 @@
+/* Estilizações adicionais para alternar entre os temas claro e escuro */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --header-bg: #1e1e1e;
+    --list-item-bg: #2a2a2a;
+}
